@@ -24,6 +24,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.zxmonk.zxmonk.MainActivity" />
         </activity>
+        <activity
+            android:name="com.zxmonk.zxmonk.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.zxmonk.zxmonk.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.zxmonk.zxmonk.DisplayMessageActivity" />
+        </activity>
+
     </application>
 
 </manifest>
